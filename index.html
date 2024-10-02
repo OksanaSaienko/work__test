@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar__inner">
+                <a class="sidebar__logo logo">
+                    <img class="logo__img" src="images/logo.svg" alt="logo">
+                    <div class="logo__text">Dashboard</div>
+
+                    <span class="logo__version">v.01</span>
+
+                </a>
+                <nav class="sidebar__menu">
+                    <div class="sidebar__menu_item">
+
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Dashboard.svg">Dashboard</a>
+
+                    </div>
+
+                    <div class="sidebar__menu_item">
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Product.svg">Product</a>
+
+                        <svg class="sidebar__menu_chevron" width="16" height="16" viewBox="0 0 16 16" fill="none
+                    " xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+
+                    <div class="sidebar__menu_item">
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Customers.svg">Customers</a>
+                        <svg class="sidebar__menu_chevron" width="16" height="16" viewBox="0 0 16 16" fill="none
+                            " xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="sidebar__menu_item">
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Income.svg">Income</a>
+                        <svg class="sidebar__menu_chevron" width="16" height="16" viewBox="0 0 16 16" fill="none
+                            " xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="sidebar__menu_item">
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Promote.svg">Promote</a>
+
+                        <svg class="sidebar__menu_chevron" width="16" height="16" viewBox="0 0 16 16" fill="none
+                            " xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div class="sidebar__menu_item">
+                        <a class="sidebar__menu_link" href="#">
+                            <img class="sidebar__menu_icon" src="images/Side_Help.svg">Help</a>
+
+                        <svg class="sidebar__menu_chevron" width="16" height="16" viewBox="0 0 16 16" fill="none
+                            " xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12L10 8L6 4" stroke="#9197B3" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </nav>
+            </div>
+            <div class="manager-info">
+                <div class="manager-info__photo">
+                    <img src="images/Manager_Photo.svg" alt="Manager_Photo">
+                </div>
+                <div class="manager-info__text">
+                    <div class="manager-info__name">Evano</div>
+                    <div class="manager-info__position">Project Manager</div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <main class="customers-page">
+            <header class="title">
+                <h1 class="title__text">
+                    Hello Evano 👋🏼,
+                </h1>
+            </header>
+            <section class="customers-page__content">
+                <table class="customers-page__table table">
+
+                    <div class="table__header">
+
+                        <!-- <div class="table__name">
+                            <h2 class="table__name-title">All Customers</h2>
+                            <h4 class="table__name-subtitle">Active Members</h4>
+                        </div> -->
+
+                        <!-- <div class="customers-page__search search ">
+                            <input class="search__input" type="search" placeholder="search">
+                            <button class="search__button"></button>
+                        </div> -->
+
+                    </div>
+
+                    <!-- <thead class="table__head">
+                        <tr class="table__head-row">
+                            <th class="table__head-item">Customer Name</th>
+                            <th class="table__head-item">Company</th>
+                            <th class="table__head-item">Phone Number</th>
+                            <th class="table__head-item">Email</th>
+                            <th class="table__head-item">Country</th>
+                            <th class="table__head-item">Status</th>
+                        </tr>
+                    </thead> -->
+                    <!-- <hr class="table__head-bottom"> -->
+
+                    <!-- <tbody class="table__body">
+
+
+                        <tr class="table__body-row">
+                            <td class="table__body-item">Jane Cooper</td>
+                            <td class="table__body-item">Microsoft</td>
+                            <td class="table__body-item">(225) 555-0118</td>
+                            <td class="table__body-item">jane@microsoft.com</td>
+                            <td class="table__body-item">United States</td>
+                            <td class="table__body-item"><span class="table__status table__status-active">Active</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Floyd Miles</td>
+                            <td class="table__body-item">Yahoo</td>
+                            <td class="table__body-item">(205) 555-0100</td>
+                            <td class="table__body-item">floyd@yahoo.com</td>
+                            <td class="table__body-item">Kiribati</td>
+                            <td class="table__body-item"><span
+                                    class="table__status table__status-inactive">Inactive</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Ronald Richards</td>
+                            <td class="table__body-item">Adobe</td>
+                            <td class="table__body-item">(302) 555-0107</td>
+                            <td class="table__body-item">ronald@adobe.com</td>
+                            <td class="table__body-item">Israel</td>
+                            <td class="table__body-item"><span
+                                    class="table__status table__status-inactive">Inactive</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Marvin McKinney</td>
+                            <td class="table__body-item">Tesla</td>
+                            <td class="table__body-item">(252) 555-0126</td>
+                            <td class="table__body-item">marvin@tesla.com</td>
+                            <td class="table__body-item">Iran</td>
+                            <td class="table__body-item"><span class="table__status table__status-active">Active</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Jerome Bell</td>
+                            <td class="table__body-item">Google</td>
+                            <td class="table__body-item">(629) 555-0129</td>
+                            <td class="table__body-item">jerome@google.com</td>
+                            <td class="table__body-item">Réunion</td>
+                            <td class="table__body-item"><span class="table__status table__status-active">Active</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Kathryn Murphy</td>
+                            <td class="table__body-item">Microsoft</td>
+                            <td class="table__body-item">(406) 555-0120</td>
+                            <td class="table__body-item">kathryn@microsoft.com</td>
+                            <td class="table__body-item">Curaçao</td>
+                            <td class="table__body-item"><span class="table__status table__status-active">Active</span>
+                            </td>
+                        </tr>
+
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Jacob Jones</td>
+                            <td class="table__body-item">Yahoo</td>
+                            <td class="table__body-item">(208) 555-0112</td>
+                            <td class="table__body-item">jacob@yahoo.com</td>
+                            <td class="table__body-item">Brazil</td>
+                            <td class="table__body-item"><span class="table__status table__status-active">Active</span>
+                            </td>
+                        </tr>
+                        <tr class="table__body_row">
+                            <td class="table__body-item">Kristin Watson</td>
+                            <td class="table__body-item">Facebook</td>
+                            <td class="table__body-item">(704) 555-0127</td>
+                            <td class="table__body-item">kristin@facebook.com</td>
+                            <td class="table__body-item">Åland Islands</td>
+                            <td class="table__body-item"><span
+                                    class="table__status table__status-inactive">Inactive</span>
+                            </td>
+                        </tr>
+
+                    </tbody> -->
+
+                </table>
+                <!-- <tfoot class="footer__page">
+                    <div class="data-entries">
+                        <div class="h3">Showing data 1 to 8 of 256K entries</div>
+                    </div>
+                    <div class="pagination">
+                        <a href="#">‹</a>
+                        <a href="#">1</a>
+                        <a class="active" href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <span class="pagination__link">...</span>
+                        <a href="#">40</a>
+                        <a href="#">›</a>
+                    </div>
+
+                </tfoot> -->
+            </section>
+
+        </main>
+    </div>
+</body>
+
+</html>
